@@ -16,11 +16,13 @@ Either use jitpack, for example (more info at https://jitpack.io/):
 
 ```
 
-Or manually add the .aar file:
-  Download the .aar file from the releases in this repo.
 
-  Add library dependency to your app's module level build.gradle file -> Instructions can be found here:
-  https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency
+<hr/>
+Or manually add the .aar file:
+<br>
+ - Download the .aar file from the releases in this repo.<br>
+ - Add library dependency to your app's module level build.gradle file -> Instructions can be found here:
+ - https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency
   
 
 ## 2. Register the activity
