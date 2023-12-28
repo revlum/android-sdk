@@ -4,10 +4,10 @@ Before we can get started with implementing the SDK, you should retrieve your AP
 
 ## 1. Add gradle dependency
 
-Add library dependency to your app's module level build.gradle file.
+Download the .aar file from this repo.
 
-// TODO add dependency based on how the library is hosted
-
+Add library dependency to your app's module level build.gradle file -> Instructions can be found here:
+https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency
   
 
 ## 2. Register the activity
@@ -19,7 +19,7 @@ Add library dependency to your app's module level build.gradle file.
 ...
 
 <activity
-	android:name="com.revlum.offerwall.OfferwallActivity">
+	android:name="com.revlum.offerwallsdk.OfferwallActivity">
 </activity>
 
 </application>
@@ -30,7 +30,7 @@ Add library dependency to your app's module level build.gradle file.
 
 At any point before launching the offerwall activity, setup the offerwall configuration by calling the `Offerwall.configure` method and providing it an API key and a user ID.
 ```
-import com.revlum.offerwall.Offerwall
+import com.revlum.offerwallsdk.Offerwall
 
 ...
 
