@@ -3,7 +3,7 @@
 Before we can get started with implementing the SDK, you should retrieve your API Key for your integration from the Revlum Dashboard.
 
 ## 1. Add gradle dependency
-Either use jitpack by, for example (more info at https://jitpack.io/):
+Either use jitpack, for example (more info at https://jitpack.io/):
 
 ```
    repositories {
