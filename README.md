@@ -3,7 +3,7 @@
 Before we can get started with implementing the SDK, you should retrieve your API Key for your integration from the Revlum Dashboard.
 
 ## 1. Add gradle dependency
-In your settings.gradle(or build.gradle.kts if using an older Android Studio project) add the dependency with the maven url to our sdk. For example:
+In your settings.gradle(or build.gradle if using an older Android Studio project) add the dependency with the maven url to our sdk. For example:
 
 ```
 dependencyResolutionManagement {
