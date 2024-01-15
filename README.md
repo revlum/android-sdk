@@ -3,27 +3,23 @@
 Before we can get started with implementing the SDK, you should retrieve your API Key for your integration from the Revlum Dashboard.
 
 ## 1. Add gradle dependency
-Either use jitpack, for example (more info at https://jitpack.io/):
+In your settings.gradle(or build.gradle.kts if using an older Android Studio project) add the dependency with the maven url to our sdk. For example:
 
 ```
-   repositories {
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url = uri("https://revlum-android-sdk.s3.amazonaws.com/")
+            content {
+                includeGroup("com.revlum")
+            }
+        }
+        google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
-   }
-   dependencies {
-	implementation 'com.github.revlum:android-sdk:v1.0.0'
-   }
-
+    }
+}
 ```
-
-
-<hr/>
-Or manually add the .aar file:
-<br>
- - Download the .aar file from the releases in this repo.<br>
- - Add library dependency to your app's module level build.gradle file -> Instructions can be found here:
- - https://developer.android.com/studio/projects/android-library#psd-add-aar-jar-dependency
-  
 
 ## 2. Register the activity
 
