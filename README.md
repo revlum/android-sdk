@@ -26,7 +26,7 @@ In the module-level build.gradle add the dependency to the revlum sdk:
 dependencies {
 
     //...other dependencies...
-    implementation("com.revlum:offerwallsdk:1.0.6")
+    implementation("com.revlum:offerwallsdk:1.0.7")
 }
 ```
 
