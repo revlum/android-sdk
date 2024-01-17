@@ -26,7 +26,7 @@ In the module-level build.gradle add the dependency to the revlum sdk:
 dependencies {
 
     //...other dependencies...
-    implementation("com.revlum:offerwallsdk:1.0.7")
+    implementation("com.revlum:offerwallsdk:1.0.8")
 }
 ```
 
@@ -62,7 +62,7 @@ Offerwall.configure(apiKey = "myapikey1234567890", userId = "myuserid")
 
 Launch the offerwall activity by calling the `Offerwall.launch` method, providing it the context.
 ```
-import com.revlum.offerwall.Offerwall
+import com.revlum.offerwallsdk.Offerwall
 
 ...
 
